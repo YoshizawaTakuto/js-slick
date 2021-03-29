@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+.timer {
+    font-size: 25px;
+    padding: 10px 0 40px 0;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    color: #AFAFAF;
+    opacity: 0.6;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.active {
+    color: black;
+    opacity: 1;
+}
