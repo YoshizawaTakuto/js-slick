@@ -1,0 +1,43 @@
+.calculator {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #CCFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+
+#display {
+    background: black;
+    color: white;
+    text-align: right;
+    font-size: 60px;
+    width: 100%;
+}
+input::placeholder{
+    color: white;
+}
+.btns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    width: 23%;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.opu-btn {
+    width: 49%;
+    padding: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
