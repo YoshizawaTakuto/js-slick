@@ -1,0 +1,22 @@
+@media all and (max-width: 767px) { 
+    .container {
+        width: 100%;
+    }
+    .title h1{
+        display: none;
+    }
+    .title h2{
+    display: block;
+    display: inline-block;
+    }
+    .target-area {
+        display: black;
+    }
+    .target-area li {
+        width: 100%;
+    }
+    .search-area input {
+        width: 89%;
+    }
+
+}

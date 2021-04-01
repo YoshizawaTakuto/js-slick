@@ -1,0 +1,64 @@
+html, body,
+ul, ol, li, input,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+li {
+    list-style: none;
+}
+body {
+    background-image: url(https://media.istockphoto.com/vectors/grass-background-vector-id486620678?k=6&m=486620678&s=612x612&w=0&h=6PvkX58HJ9eFU2qTnImbuoW95MJyFi2r33cqR9_aNts=);
+    background-size: cover;
+}
+.container {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+.title h1{
+    display: inline-block;
+    background: linear-gradient( transparent 70%, #FFFF66 50%, #66CC66);
+    margin: 60px;
+    font-size: 50px;
+}
+.title h2{
+    font-size: 24px;
+    background: linear-gradient( transparent 70%, #FFFF66 50%, #66CC66);
+    display: none;
+    margin: 20px;
+}
+.search-area input {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.target-area {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.target-area li {
+    width: 32%;
+    padding: 20px 0;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid #009900;
+    margin-bottom: 30px; 
+    text-align: initial;
+}
+.target-area img {
+    width: 100%;
+    height: 300px;
+    
+}
+.target-area p {
+    display: inline-block;
+    color: #D2691E;
+    font-size: 12px;
+    
+}
+.target-area span {
+    font-size: 20px;
+}
