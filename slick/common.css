@@ -1,0 +1,82 @@
+html, body,
+div, ul, li, h1, p, img {
+    margin: 0;
+    padding: 0;
+} 
+body {
+    background-image: url(https://media.istockphoto.com/vectors/grass-background-vector-id486620678?k=6&m=486620678&s=612x612&w=0&h=6PvkX58HJ9eFU2qTnImbuoW95MJyFi2r33cqR9_aNts=);
+    background-size: cover;
+}
+.animals li {
+    list-style: none;
+    position: relative;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+h1 {
+    background: linear-gradient(to right, #FFFF33 20%, #00FF7F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0 20px 0;
+}
+img {
+    width: 80%;
+    margin: 0 auto;
+    height: 600px;
+}
+.animals p {
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.dog {
+    position: absolute;
+    top: 30px;
+    right: 240px;
+}
+.cat {
+    position: absolute;
+    top: 80px;
+    left: 240px;
+}
+.rabbit {
+    position: absolute;
+    top: 130px;
+    right: 130px;
+}
+.squirrel {
+    position: absolute;
+    top: 10px;
+    right: 140px;
+}
+.horse {
+    position: absolute;
+    top: 20px;
+    right: 210px;
+}
+.giraffe {
+    position: absolute;
+    top: 20px;
+    left: 150px;
+}
+/*----------slick------------*/
+
+.slick-slide  {
+    opacity: 0.6;
+}
+.slick-prev::before, .slick-next::before{
+    color: black;
+    font-size: 50px;
+    opacity:  1;
+}
+.slick-prev {
+    left: -50px;
+}
+.slick-dots {
+    bottom: -55px;
+}
